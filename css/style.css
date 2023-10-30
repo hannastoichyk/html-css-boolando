@@ -9,9 +9,14 @@
   width: 100%;
   justify-content: space-around;
 }
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .img-nav-bar {
-  width: 1;
-  height: 1;
+  width: 40px;
+  height: 40px;
 }
 .logo {
   width: 100px;
@@ -29,4 +34,12 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+.colour-red {
+  color: red;
+}
+.footer {
+  display: flex;
+  background-color: black;
+  color: antiquewhite;
 }
