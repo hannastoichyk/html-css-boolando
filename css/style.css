@@ -3,31 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
-.header {
+.header1 {
   background-color: rgb(255, 105, 0);
   display: flex;
   width: 100%;
   justify-content: space-around;
+  color: #eeeeee;
 }
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+.align-c {
+  align-self: center;
 }
 .img-nav-bar {
   width: 40px;
   height: 40px;
+  align-self: center;
 }
 .logo {
   width: 100px;
   height: 50px;
 }
-.cards {
-  width: 300px;
-  height: 440px;
+.titolo {
+  text-align: center;
+  margin: 10px 10px;
 }
 .container-flex {
-  margin: 0 auto;
+  margin: 0 auto 0 auto;
   gap: 5px;
   width: 60%;
   display: flex;
@@ -35,11 +35,32 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+.item {
+  margin: 10px 0px;
+}
+.cards {
+  width: 300px;
+  height: 440px;
+  margin-bottom: 0 0;
+}
+
+.testo {
+  margin-top: 0;
+  border: 3px solid #eeeeee;
+}
 .colour-red {
   color: red;
 }
 .footer {
+  margin: 15px;
   display: flex;
-  background-color: black;
-  color: antiquewhite;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #1a1a1a;
+  color:#FFFFFF;
+}
+
+.logo-finale {
+  width: 120px;
+  height: 70px;
 }
