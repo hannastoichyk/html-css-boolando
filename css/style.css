@@ -13,10 +13,11 @@
 .align-c {
   align-self: center;
 }
+
 .img-nav-bar {
   width: 40px;
   height: 40px;
-  align-self: center;
+  
 }
 .logo {
   width: 100px;
@@ -47,6 +48,7 @@
 .testo {
   margin-top: 0;
   border: 3px solid #eeeeee;
+ 
 }
 .colour-red {
   color: red;
