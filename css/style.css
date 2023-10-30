@@ -3,8 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-img {
+.header {
+  background-color: rgb(255, 105, 0);
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.img-nav-bar {
+  width: 1;
+  height: 1;
+}
+.logo {
+  width: 100px;
+  height: 50px;
+}
+.cards {
   width: 300px;
   height: 440px;
 }
